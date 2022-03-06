@@ -18,8 +18,8 @@ software.
 
 ROM: IOS-XE ROMMON
 
-SUT uptime is 1 week, 6 days, 15 hours, 48 minutes
-Uptime for this control processor is 1 week, 6 days, 15 hours, 51 minutes
+SUT uptime is 1 week, 6 days, 19 hours, 8 minutes
+Uptime for this control processor is 1 week, 6 days, 19 hours, 11 minutes
 System returned to ROM by reload
 System image file is "bootflash:packages.conf"
 Last reload reason: reload
