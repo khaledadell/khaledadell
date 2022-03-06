@@ -1,0 +1,17 @@
+Value Required Version (\S+)
+Value Required Relsoft (\w+)
+Value Required Rom (.+)
+Value Required opmode (\S+)
+Value Required noofgbethr (\d+)
+Value Required phmemory (\w+\s\w+)
+Value Required uptime (.+)
+
+Start
+  #
+  ^Cisco IOS XE Software, Version\s${Version}
+  ^Cisco\sIOS\s.*RELEASE\sSOFTWARE\s\(${Relsoft}\) 
+  ^ROM:\s${Rom} 
+  ^Router\soperating\smode:\s${opmode} 
+  ^.*uptime\sis\s${uptime}
+  ^${noofgbethr}\sGigabit\sEthernet\sinterfaces
+  ^${phmemory}\sof\sphysical\smemory. -> Record
